@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tour & Travel - Table</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- LOADING -->
+  <div id="loading">
+    <div class="loader"></div>
+    LOADING...
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">Tour & Travel</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-icons" style="font-size: 32px; color:#ffc700;">
+        menu
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto font-weight-bold">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item active"><a href="table.html" class="nav-link">Table</a></li>
+        <li class="nav-item"><a href="slider.html" class="nav-link">Slider</a></li>
+        <li class="nav-item"><a href="form.html" class="nav-link">Form</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container-main">
+    <section id="table" class="mb-5">
+      <h2 class="section-title">Tour Package Prices</h2>
+      <div class="responsive-table" role="region" aria-label="List of tour prices">
+        <table class="table table-dark table-hover" role="table">
+          <thead>
+            <tr>
+              <th scope="col">Package</th>
+              <th scope="col">Duration</th>
+              <th scope="col">Price (USD)</th>
+              <th scope="col">Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bali Paradise</td>
+              <td>7 Days</td>
+              <td>799</td>
+              <td>★★★★☆</td>
+            </tr>
+            <tr>
+              <td>Tokyo Lights</td>
+              <td>5 Days</td>
+              <td>999</td>
+              <td>★★★★★</td>
+            </tr>
+            <tr>
+              <td>Paris Romance</td>
+              <td>6 Days</td>
+              <td>1199</td>
+              <td>★★★★★</td>
+            </tr>
+            <tr>
+              <td>New York Hustle</td>
+              <td>4 Days</td>
+              <td>899</td>
+              <td>★★★★☆</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Tour & Travel. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

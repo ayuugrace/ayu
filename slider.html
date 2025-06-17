@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tour & Travel - Slider</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <!-- Bootstrap 4 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+  />
+  <!-- Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- LOADING -->
+  <div id="loading">
+    <div class="loader"></div>
+    LOADING...
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">Tour & Travel</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-icons" style="font-size: 32px; color:#ffc700;">
+        menu
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto font-weight-bold">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="table.html" class="nav-link">Table</a></li>
+        <li class="nav-item active"><a href="slider.html" class="nav-link">Slider</a></li>
+        <li class="nav-item"><a href="form.html" class="nav-link">Form</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container-main">
+    <section id="slider" class="mb-5">
+      <h2 class="section-title">Explore Our Destinations</h2>
+      <div
+        id="destinationsCarousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+        aria-label="Destination image slider"
+      >
+        <ol class="carousel-indicators">
+          <li data-target="#destinationsCarousel" data-slide-to="0" class="active" aria-current="true" aria-label="Bali"></li>
+          <li data-target="#destinationsCarousel" data-slide-to="1" aria-label="Tokyo"></li>
+          <li data-target="#destinationsCarousel" data-slide-to="2" aria-label="Paris"></li>
+          <li data-target="#destinationsCarousel" data-slide-to="3" aria-label="New York"></li>
+        </ol>
+        <div class="carousel-inner rounded-lg shadow-lg">
+          <div class="carousel-item active">
+            <img
+              src="c:\Users\u\Downloads\baliii beachhhh.jpg"
+              class="d-block w-100"
+              alt="Paradise Bali beach with palm trees"
+            />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Bali Paradise</h5>
+              <p>Experience the tropical bliss of beautiful beaches and vibrant culture.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="c:\Users\u\Downloads\tokyo cityspace.webp"
+              class="d-block w-100"
+              alt="Tokyo neon cityscape at night"
+            />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Tokyo Lights</h5>
+              <p>Explore one of the most exciting cities with endless attractions.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="c:\Users\u\Downloads\paris eiffel tower.jpg"
+              class="d-block w-100"
+              alt="Eiffel Tower in Paris at dusk"
+            />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Paris Romance</h5>
+              <p>The city of love and lights awaits your discovery.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="c:\Users\u\Downloads\patung liberty.jpg"
+              class="d-block w-100"
+              alt="New York Statue of Liberty with skyline"
+            />
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>New York Hustle</h5>
+              <p>The city that never sleeps — full of culture & excitement.</p>
+            </div>
+          </div>
+        </div>
+
+        <a
+          class="carousel-control-prev"
+          href="#destinationsCarousel"
+          role="button"
+          data-slide="prev"
+          aria-label="Previous slide"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#destinationsCarousel"
+          role="button"
+          data-slide="next"
+          aria-label="Next slide"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Tour & Travel. All rights reserved.
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
